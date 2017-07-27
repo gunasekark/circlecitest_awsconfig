@@ -15,6 +15,7 @@ compile:
         echo $CDE
      - 'ls -l ~/'
      - 'aws --version'
+     - 'docker --version'
     # - 'ls -l ~/.aws/'
 deployment:
   branch: dev
